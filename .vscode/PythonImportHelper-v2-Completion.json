@@ -134,11 +134,29 @@
         "documentation": {}
     },
     {
+        "label": "t_e",
+        "kind": 5,
+        "importPath": "practice",
+        "description": "practice",
+        "peekOfCode": "t_e = []\nfor x in range(0, 398):\n    #print(x+1)\n    t_e.append(x+1)\n#print(tup_le)\nbn = pnd.read_csv('Bitcoin_Prices_List.csv')\nbn.index = t_e\nprint(bn)\n#print(bn.index)\n\"\"\"",
+        "detail": "practice",
+        "documentation": {}
+    },
+    {
         "label": "bn",
         "kind": 5,
         "importPath": "practice",
         "description": "practice",
-        "peekOfCode": "bn = pnd.read_csv('Bitcoin_Prices_List.csv')\nprint(bn)",
+        "peekOfCode": "bn = pnd.read_csv('Bitcoin_Prices_List.csv')\nbn.index = t_e\nprint(bn)\n#print(bn.index)\n\"\"\"\nwith open('Bitcoin_Prices_List.csv', 'r') as prices:\n    for index, lines in prices:\n        print(index + 1, lines.read_lines())\"\"\"",
+        "detail": "practice",
+        "documentation": {}
+    },
+    {
+        "label": "bn.index",
+        "kind": 5,
+        "importPath": "practice",
+        "description": "practice",
+        "peekOfCode": "bn.index = t_e\nprint(bn)\n#print(bn.index)\n\"\"\"\nwith open('Bitcoin_Prices_List.csv', 'r') as prices:\n    for index, lines in prices:\n        print(index + 1, lines.read_lines())\"\"\"",
         "detail": "practice",
         "documentation": {}
     }
